@@ -3,7 +3,9 @@
 This repository houses a comprehensive full-stack **School Management Application**, leveraging **Next.js**, **Tailwind CSS**, **Node.js**, and **PostgreSQL** with **Prisma ORM** and **Supabase**. The application is a modern solution to manage school operations efficiently with tailored dashboards for administrators, teachers, students, and parents.
 
 Live Link: https://schoolsyncdev.vercel.app/
+
 username: admin1
+
 password: admin1
 
 ---
