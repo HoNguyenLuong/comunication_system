@@ -73,33 +73,11 @@ password: admin1
    ```
    
    <EDIT>
-3. **Setup Postgrel container:**
+3. **Setup Postgresql container:**
    ```bash
    docker compose up -d
    ```
 The evironment variable setup below is already set up with `docker-compose.yml` and `.env`
-  
-3. **Environment Variables:**
-
-Create a `.env.local` file in the root directory and use the following as an example configuration:
-
-```plaintext
-  # Environment variables declared in this file are automatically made available to Prisma.
-  # See the documentation for more detail: https://pris.ly/d/prisma-schema#accessing-environment-variables-from-the-schema
-
-  # Prisma connection string for PostgreSQL
-  DATABASE_URL="postgresql://<username>:<password>@<host>:<port>/<database>?pgbouncer=true&connection_limit=1"
-
-  # Direct connection to the database for migrations
-  DIRECT_URL="postgresql://<username>:<password>@<host>:<port>/<database>"
-        
-  DATABASE_PASSWORD="<database_password>"
-
-  # Clerk configuration
-  NEXT_PUBLIC_CLERK_SIGN_IN_URL=/auth
-  NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_<your_clerk_publishable_key>
-  CLERK_SECRET_KEY=sk_test_<your_clerk_secret_key>
-  ```
 
 4. **Run database migrations:**
    ```bash
