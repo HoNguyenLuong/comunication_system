@@ -77,7 +77,7 @@ password: admin1
    ```bash
    docker compose up -d
    ```
-The evironment variable setup below is already set up with `docker-compose.yml` and `.env`
+The evironment variable setup is in `docker-compose.yml` and `.env`
 
 4. **Run database migrations:**
    ```bash
