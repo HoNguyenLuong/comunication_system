@@ -72,6 +72,13 @@ password: admin1
    npm install
    ```
 
+<EDIT>
+3. **Setup Postgrel container:**
+  ```bash
+  docker compose up -d
+  ```
+The evironment variable setup below is already set up with `docker-compose.yml` and `.env`
+  
 3. **Environment Variables:**
 
 Create a `.env.local` file in the root directory and use the following as an example configuration:
